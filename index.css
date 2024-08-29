@@ -17,49 +17,60 @@
 margin-left: 20px;
 }
 
+.search-bar {
+    flex-grow: 1;
+    margin: 0 20px;
+    display: flex;
+    margin-left: 500px;
+}
+
 .search-bar input {
-    margin-left: 400px;
-    width: 30%;
-    border-radius: 5px ;
+    width: 50%;
+    padding: 10px;
+    border-radius: 5px;
+    border: black
+
 }
 
 .search-bar img {
     color: black;
     cursor: pointer;
+    justify-content: center;
 }
 .mic {
-    margin-left: 420px;
+    margin-left: 600px;
 }
 
 .create {
-    margin-left: 40px;
+    margin-left: 30px;
 }
 
 .more {
-    margin-left: 40px;
+    margin-left: 30px;
 }
 
 .bellicon {
-    margin-left: 40px;
+    margin-left: 30px;
 }
 
 .user {
-    margin-left: 40px;
+    margin-left: 30px;
 }
 
 .thumbnail {
     margin: 0 auto;    
     width: 80%;
+    margin-top: 50px;
     display: grid;
-    margin-left: 500px;
+    margin-left: 320px;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(5, 1fr);
-    grid-column-gap: 100x;
+    grid-column-gap: 10x;
     grid-row-gap: 30px;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     color: white;
-    }
+}
     
     .div1 { grid-area: 1 / 1 / 2 / 2; }
     .div2 { grid-area: 1 / 2 / 2 / 3; }
